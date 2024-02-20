@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AdminClub</string>
+    <string name="title_activity_main">AdminClub</string>
+    <string name="package_name">cl.thedifference.adminclub</string>
+    <string name="custom_url_scheme">cl.thedifference.adminclub</string>
+</resources>

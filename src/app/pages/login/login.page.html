@@ -1,0 +1,18 @@
+<ion-content >
+  <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+    <div>
+      <div style="text-align: center; font-size: xx-large;">
+        <strong>Login</strong>
+      </div>
+      <div style="display: flex;justify-content: center;">
+        <ion-input [(ngModel)]="email" label="Correo electronico"/>
+      </div>
+      <div style="display: flex;justify-content: center;">
+        <ion-input [(ngModel)]="password" type="password" label="Contraseña"/>
+      </div>
+      <div style="display: flex;justify-content: center;">
+        <ion-button (click)="login()" >Iniciar Sesion</ion-button>
+      </div>
+    </div>
+  </div>
+</ion-content>
